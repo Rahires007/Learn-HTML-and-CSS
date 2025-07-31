@@ -1,0 +1,192 @@
+HTML PROGRAMING
+Introduction to html:-
+Html stand for hyper text markup language used for creating webpages or website structure
+Html is not case sensetive language and html is easy to understand programing language
+Html is consist of various tags 
+
+Basic syntax of html:-
+<HTML>
+<HEAD>
+<TITLE>
+STRUCTURE OF HTML
+</TITLE>
+</HEAD>
+<BODY>
+THIS PROGRAM IS STRUCTURE OF HTML
+</BODY>
+</HTML>
+
+Html tag:-
+The component which used for design the structure of website or webpage called as html tags
+
+Attribute:-
+The element used for adding more information to html tag is called as attribute
+
+Comments in html :-
+<!------ !>
+Html tags:-
+1..Heading tag				--------		<h1> to <h7>
+Heading tag is pair tag it have separate opening and closing tag
+This tag used for providing heading to html content
+Commonly <h3> tag is used
+
+2..paragraph tag				--------		<p>
+This tag is used for providing paragraph in html webpage
+Paragraph tag is pair tag 
+It support 1 attribute as follow which have 4value
+#1..Align	A..Left	B..Right	C..Center	D..Justify
+
+3..break tag 				--------		<br>
+This tag used for breaking the sequence of statements
+Break tag is single tag 
+
+4..Anchor tag				---------	<a>
+This tag used for providing hyperlink in html webpage or website
+This tag is pair tag which support following attribute
+#1.href  	#2..target	 #3..download
+
+5..Image tag					---------	<img>
+This is single tag which support various attribute
+This is used for providing image in webpage or website
+#1..src	#2..border	#3..height	#4..width	#5..align	#6..hspace	#7..vspace	#8..alt
+
+6..Bold tag					---------	<b>
+This tag used for providing bold text in webpage
+This tag is pair tag
+
+7..Italic tag					----------	<i>
+This tag used for providing italic text in webpage or website
+This tag is also pair tag
+
+8..Underline tag				----------	<u>
+This tag used for providing underline text in webpage or website
+This is also pair tag
+
+9..Big tag					---------	<big> 		<larger>
+This tag used for increasing size of text in webpage or website
+This is also pair tag
+
+10..Small tag				----------	<small>	<smaller>
+This tag is used for decreasing size of text in webpage or website
+This is also pair tag
+
+11..subscript tag				----------	<sub>
+This is also pair tag 
+This tag used for providing subscript value in webpage or website
+
+12..Superscript tag			----------	<sup>
+This tag is also pair tag
+This tag is used for providing superscript tag in webpage or website
+
+13..Body tag				----------	<body>
+This tag is also a pair tag
+This tag is used for providing the all content in webpage or website
+This tag support two attribute as follow
+
+#1..bgcolor		#2..background
+14..Horizontal rular tag			-----------	<hr>
+This tag is used for drawing horizontal rular in webpage
+This is single tag which support various attribute
+
+#1..color	#2..align	#3..size	#4..width	#5..noshade
+15..List tag					-----------	<list>
+This is pair tag used for providing list in webpage or website
+There are mainly three types of list such as follow
+
+#1..Ordered list /Numbered list tag		------	<ol>
+This is pair tag which used for providing numbered list
+This tag support two attribute as follow
+#1..type	#2..start
+
+#2..Unordered list/Bulleted list tag		------	<ul>
+This is also pair tag used for providing bulleted list
+This tag support one attribute as follow
+#1..type  
+#A..Disc	#B..Circle	#C..Square
+
+#3..Defination list /Grocerry list tag		------	<dl>
+This is also pair tag which used for definition list 
+This tag support two sub tag as follow
+#1..<dt>	------	For definition title
+#2..<dd>	------	For definition data
+
+16..Pre formatted tag				----------	<pre>
+This tag is used for writing pre formatted text in webpage
+This is pair tag
+
+17…Div tag 						----------	<div>
+This is pair tag used for providing separate division in webpage
+This tag uses the style in css this tag support various tags
+#1..id		#2..class
+
+18..Span tag 					-----------	<span>
+This tag is pair tag used for providing style to word 
+Syntax of div and span
+<head>
+<style>
+
+</style>
+</head>
+
+19..Font tag 					-----------	<Font>
+This tag is also pair tag used for providing style to font in html
+This tag support various attribute as follow
+#1..color	#2..size	#3..face
+
+20..Address tag 					----------	<Address>
+This tag is also pair tag used for providing address in html
+
+21..Table tag					----------	<Table>
+This tag is pair tag used for providing table in html
+This tag support various subtag as follow
+#1..Table row tag		-------		<Tr>
+#2..Table column data	-------		<Td>
+#3..Table heading column-------		<Th>
+This tag support various attribute as follow
+#1..border	#2..Align	#3..Bgcolor	#4…Height	#5..Width	#6..Bordercolor	#7..Background	#8..Cellspacing	#9..Cellspadding	#10..Colspan	#11..Rowspan
+
+22..Frameset  					----------	<Frameset>
+This is also pair tag used for displaying two are more than two webpage in same web browser screen
+This tag support various attribute sucha s follow
+#1..Cols	#2..Rows	#3..Border	#4..Frameborder	#..Framespacing
+23..Frame tag					----------	<Frame>
+This is also pair tag used for creating sections in web browser screen
+This tag support various  attribute as follow
+#1..Src	#2..Name	#3..Scrolling		#4..Noresize		#5..marginwidth
+#..Marginheight
+Body tag and framest tag not work at same time in html program
+
+23..Form tag 					------------	<Form>
+This tag support various subtag as follow
+This tag is used for providing forms in webpages
+This is pair tag 
+#1..Input tag			------- 	 <input>
+#..2Select tag			------	<select>
+#3..Option tag			------	<option>
+#4..Button tag 			------	<Button>
+#5..Fieldset tag			------	<Fieldset>
+
+24..Morquee tag					-----------	<Marquee>
+This tag is pair tag used for making moving content on webpage
+This tag support various attribute as follow
+#1..Width	#2..Height	#3..Scrollamount	#4..Scrolldelay	#5..behavior		#6..color	#7..bgcolor
+
+
+
+CSS 	------	Cascading style sheets:-
+
+There are mainly three types css are as follow
+#1..Inline css
+Syntax
+<tag style =”				”>
+#2..Internal/Embedded css
+Syntax
+<head>
+<style>
+Tag
+{							}
+</style>
+</head>
+#3..External/Imported css
+In this css we have to create separate css file and link that css file with html program
+<Link rel=”stylesheet” href=”location of css fille”>
